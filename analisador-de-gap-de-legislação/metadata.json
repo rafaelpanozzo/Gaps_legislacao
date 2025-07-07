@@ -1,0 +1,6 @@
+{
+  "name": "Analisador de Gap de Legislação",
+  "description": "Um aplicativo para ajudar a identificar se uma necessidade é um gap de legislação com base em um questionário e para registrar o histórico dessas análises.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}

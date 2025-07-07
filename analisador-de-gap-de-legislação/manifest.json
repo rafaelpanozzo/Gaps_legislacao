@@ -1,0 +1,24 @@
+{
+  "short_name": "Gap Análise",
+  "name": "Analisador de Gap de Legislação",
+  "description": "Um aplicativo para ajudar a identificar se uma necessidade é um gap de legislação com base em um questionário e para registrar o histórico dessas análises.",
+  "icons": [
+    {
+      "src": "/icons/icon-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any maskable"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#0f172a",
+  "scope": "/"
+}

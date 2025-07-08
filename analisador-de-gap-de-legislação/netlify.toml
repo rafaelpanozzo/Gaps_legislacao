@@ -1,0 +1,13 @@
+# Configuração para o processo de build na Netlify
+[build]
+  # Comando que a Netlify usará para construir seu site
+  command = "npm run build"
+  # O diretório que será publicado após o build
+  publish = "dist"
+
+# Regra de redirecionamento para Single-Page Applications (SPA)
+# Isso corrige o erro 404 ao atualizar a página ou acessar URLs internas.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
